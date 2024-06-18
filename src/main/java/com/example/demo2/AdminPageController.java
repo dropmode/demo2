@@ -4,11 +4,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class AccesDeniedPageController {
-
-	@GetMapping("/accessDeniedPage")
-	public String accessDeniedPage() {
-		return "accessDeniedPage";
+public class AdminPageController {
+	@GetMapping("/adminPage")
+	public String adminPage() {
+		return "adminPage";
 	}
-	
 }
